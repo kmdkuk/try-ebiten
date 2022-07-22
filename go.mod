@@ -1,4 +1,4 @@
-module github.com/kmdkuk/goct
+module github.com/kmdkuk/try-ebiten
 
 go 1.18
 

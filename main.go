@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kmdkuk/goct/cmd"
+	"github.com/kmdkuk/try-ebiten/cmd"
 )
 
 func main() {

@@ -1,5 +1,5 @@
 # Summary
 
-[goct](README.md)
+[try-ebiten](README.md)
 
 # User manual

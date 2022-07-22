@@ -2,9 +2,9 @@
 language = "en"
 multilingual = false
 src = "."
-title = "goct Documentation"
+title = "try-ebiten Documentation"
 
 [output.html]
-git-repository-url = "https://github.com/kmdkuk/goct"
-edit-url-template = "https://github.com/kmdkuk/goct/edit/main/docs/{path}"
-site-url = "/goct/"
+git-repository-url = "https://github.com/kmdkuk/try-ebiten"
+edit-url-template = "https://github.com/kmdkuk/try-ebiten/edit/main/docs/{path}"
+site-url = "/try-ebiten/"

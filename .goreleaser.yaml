@@ -1,4 +1,4 @@
-project_name: goct
+project_name: try-ebiten
 env:
   - GO111MODULE=on
 before:
@@ -6,12 +6,12 @@ before:
     - go mod tidy
 builds:
   - main: .
-    binary: goct
+    binary: try-ebiten
     ldflags:
       - -s -w
-      - -X github.com/kmdkuk/goct/pkg/version.Version={{.Version}}
-      - -X github.com/kmdkuk/goct/pkg/version.Revision={{.ShortCommit}}
-      - -X github.com/kmdkuk/goct/pkg/version.BuildDate={{.Date}}
+      - -X github.com/kmdkuk/try-ebiten/pkg/version.Version={{.Version}}
+      - -X github.com/kmdkuk/try-ebiten/pkg/version.Revision={{.ShortCommit}}
+      - -X github.com/kmdkuk/try-ebiten/pkg/version.BuildDate={{.Date}}
     goos:
       - windows
       - darwin

@@ -1,8 +1,8 @@
-# goct: GO Cli Template
-![CI](https://github.com/kmdkuk/goct/workflows/CI/badge.svg)
+# try-ebiten: GO Cli Template
+![CI](https://github.com/kmdkuk/try-ebiten/workflows/CI/badge.svg)
 
 A template to start writing CLI easily in Go language.  
-Please change "goct" to your project name and use it. 
+Please change "try-ebiten" to your project name and use it. 
 
 By setting your Slack webhook url in secrets.SLACK_WEBHOOK,  
 you can also notify slack of test results.  

@@ -55,4 +55,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        gh pr comment ${{ github.event.pull_request.number }} --body "Preview: https://kmdk.uk/goct/_preview/${{ needs.build.outputs.branch }}"
+        gh pr comment ${{ github.event.pull_request.number }} --body "Preview: https://kmdk.uk/try-ebiten/_preview/${{ needs.build.outputs.branch }}"

@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/kmdkuk/goct/pkg/version"
+	"github.com/kmdkuk/try-ebiten/pkg/version"
 	"github.com/spf13/cobra"
 )
 
