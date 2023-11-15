@@ -35,7 +35,7 @@ jobs:
         run: |
           sudo apt install libc6-dev libgl1-mesa-dev libgl1-mesa-dev libxcursor-dev libxi-dev libxinerama-dev libxrandr-dev libxxf86vm-dev libasound2-dev pkg-config
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: build
         run: make build
   test:
@@ -50,7 +50,7 @@ jobs:
         run: |
           sudo apt install libc6-dev libgl1-mesa-dev libgl1-mesa-dev libxcursor-dev libxi-dev libxinerama-dev libxrandr-dev libxxf86vm-dev libasound2-dev pkg-config
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Ensure go.mod is already tidied
         run: go mod tidy && git diff -s --exit-code go.sum
       - name: test
