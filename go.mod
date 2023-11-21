@@ -3,7 +3,7 @@ module github.com/kmdkuk/try-ebiten
 go 1.21
 
 require (
-	github.com/hajimehoshi/ebiten/v2 v2.6.2
+	github.com/hajimehoshi/ebiten/v2 v2.6.3
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.17.0
