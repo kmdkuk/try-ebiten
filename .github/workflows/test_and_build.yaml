@@ -27,7 +27,7 @@ jobs:
           - windows-latest
     steps:
       - name: setup go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           go-version: ${{ env.go-version }}
       - name: install ubuntu dependency
@@ -43,7 +43,7 @@ jobs:
     needs: prepare
     steps:
       - name: setup go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           go-version: ${{ env.go-version }}
       - name: install ubuntu dependency
