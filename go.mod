@@ -3,7 +3,7 @@ module github.com/kmdkuk/try-ebiten
 go 1.21
 
 require (
-	github.com/hajimehoshi/ebiten/v2 v2.6.5
+	github.com/hajimehoshi/ebiten/v2 v2.6.6
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.17.0
@@ -11,7 +11,7 @@ require (
 )
 
 require (
-	github.com/ebitengine/purego v0.5.0 // indirect
+	github.com/ebitengine/purego v0.6.0 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
